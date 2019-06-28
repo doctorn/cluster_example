@@ -1,4 +1,6 @@
 name = "example"
+url = "https://github.com/doctorn/cluster_example.git"
+
 setup = [
   "echo 'running global setup'"
 ]
