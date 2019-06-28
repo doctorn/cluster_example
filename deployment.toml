@@ -1,0 +1,22 @@
+[experiment]
+name = "Example"
+setup = ["echo 'setting up'"]
+
+[hosts]
+[hosts.rogue1]
+setup = ["echo 'rogue1'"]
+
+[hosts.rogue2]
+setup = ["echo 'rogue2'"]
+
+[hosts.rogue3]
+setup = ["echo 'rogue3'"]
+
+[hosts.rogue4]
+setup = ["echo 'rogue4'"]
+
+[hosts.rogue5]
+setup = ["echo 'rogue5'"]
+
+[hosts.rogue6]
+setup = ["echo 'rogue6'"]
