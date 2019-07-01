@@ -27,3 +27,7 @@ args = ["running local setup for rogue5"]
 [hosts.rogue6]
 command = "echo"
 args = ["running local setup for rogue6"]
+
+[hosts.arch]
+command = "echo"
+args = ["running local setup for arch"]
