@@ -5,28 +5,28 @@ args = ["running global setup"]
 
 [hosts]
 [hosts.rogue1]
-command = "echo"
-args = ["running local setup for rogue1"]
+command = "./loop.sh"
+args = ["looping from rogue1"]
 
 [hosts.rogue2]
-command = "echo"
-args = ["running local setup for rogue2"]
+command = "./loop.sh"
+args = ["looping from rogue2"]
 
 [hosts.rogue3]
-command = "echo"
-args = ["running local setup for rogue3"]
+command = "./loop.sh"
+args = ["looping from rogue3"]
 
 [hosts.rogue4]
-command = "echo"
-args = ["running local setup for rogue4"]
+command = "./loop.sh"
+args = ["looping from rogue4"]
 
 [hosts.rogue5]
-command = "echo"
-args = ["running local setup for rogue5"]
+command = "./loop.sh"
+args = ["looping from rogue5"]
 
 [hosts.rogue6]
-command = "echo"
-args = ["running local setup for rogue6"]
+command = "./loop.sh"
+args = ["looping from rogue6"]
 
 [hosts.arch]
 command = "./loop.sh"
