@@ -29,5 +29,10 @@ command = "echo"
 args = ["running local setup for rogue6"]
 
 [hosts.arch]
-command = "./rust/x.py"
-args = ["build"]
+command = "while"
+args = [
+  "[",  "1", "]",
+  "do",
+    "echo", "arch",
+  "done"
+]
