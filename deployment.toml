@@ -30,4 +30,4 @@ args = ["running local setup for rogue6"]
 
 [hosts.arch]
 command = "./loop.sh"
-args = ["arch"]
+args = ["looping from arch"]
