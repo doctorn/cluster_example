@@ -29,10 +29,5 @@ command = "echo"
 args = ["running local setup for rogue6"]
 
 [hosts.arch]
-command = "while"
-args = [
-  "[",  "1", "]",
-  "do",
-    "echo", "arch",
-  "done"
-]
+command = "./loop.sh"
+args = ["arch"]
