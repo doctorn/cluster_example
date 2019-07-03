@@ -1,7 +1,7 @@
 name = "example"
 
-command = "echo"
-args = ["running global setup"]
+command = "git"
+args = ["clone", "https://github.com/rust-lang/rust.git"]
 
 [hosts]
 [hosts.rogue1]
@@ -29,5 +29,5 @@ command = "./loop.sh"
 args = ["looping from rogue6"]
 
 [hosts.arch]
-command = "./loop.sh"
-args = ["looping from arch"]
+command = "./rust/x.py"
+args = ["build"]
