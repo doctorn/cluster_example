@@ -2,6 +2,8 @@ name = "example"
 
 command = "echo"
 args = ["running global setup"]
+log_dir = "../"
+gen_logs = true
 
 [hosts]
 [hosts.rogue1]
