@@ -2,7 +2,7 @@ name = "example"
 
 command = "echo"
 args = ["running global setup"]
-log_dir = "../"
+log_dir = "./logs"
 gen_logs = true
 
 [hosts]
