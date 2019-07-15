@@ -32,4 +32,4 @@ args = ["looping from rogue6"]
 
 [hosts.arch]
 command = "./loop.sh"
-args = ["looping from arch"]
+args = ["looping from arch again"]
