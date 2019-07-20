@@ -1,5 +1,5 @@
 #!/bin/bash
-for ((i=1;i<=100;i++)); 
+while [ 1 ]
   do
     echo $1
   done
