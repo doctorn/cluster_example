@@ -11,8 +11,8 @@ command = "./loop.sh"
 args = ["looping from rogue1"]
 
 [hosts.rogue2]
-command = "./loop.sh"
-args = ["looping from rogue2"]
+command = "ifconfig"
+args = []
 
 [hosts.rogue3]
 command = "./loop.sh"
