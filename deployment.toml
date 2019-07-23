@@ -5,25 +5,24 @@ args = []
 log_dir = "logs/"
 gen_logs = true
 
-hosts = [
-  "rogue1",
-  "rogue2",
-  "rogue3",
-  "rogue4",
-  "rogue5",
-  "rogue6",
-  "rogue7",
-  "rogue8",
-  "rogue9",
-  "rogue10",
-  "rogue11",
-  "rogue12",
-  "rogue13",
-  "rogue14",
-  "rogue15",
-  "rogue16",
-  "rogue17",
-  "rogue18",
-  "rogue19",
-  "rogue20",
-]
+[hosts]
+rogue1 = {}
+rogue2 = {}
+rogue3 = {}
+rogue4 = {}
+rogue5 = {}
+rogue6 = {}
+rogue7 = {}
+rogue8 = {}
+rogue9 = {}
+rogue10 = {}
+rogue11 = {}
+rogue12 = {}
+rogue13 = {}
+rogue14 = {}
+rogue15 = {}
+rogue16 = {}
+rogue17 = {}
+rogue18 = {}
+rogue19 = {}
+rogue20 = {}
