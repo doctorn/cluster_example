@@ -1,35 +1,29 @@
 name = "example"
 
-command = "echo"
-args = ["running global setup"]
+command = "ifconfig"
+args = []
 log_dir = "logs/"
 gen_logs = true
 
-[hosts]
-[hosts.rogue1]
-command = "./loop.sh"
-args = ["looping from rogue1"]
-
-[hosts.rogue2]
-command = "ifconfig"
-args = []
-
-[hosts.rogue3]
-command = "./loop.sh"
-args = ["looping from rogue3"]
-
-[hosts.rogue4]
-command = "./loop.sh"
-args = ["looping from rogue4"]
-
-[hosts.rogue5]
-command = "./loop.sh"
-args = ["looping from rogue5"]
-
-[hosts.rogue6]
-command = "./loop.sh"
-args = ["looping from rogue6"]
-
-[hosts.arch]
-command = "./loop.sh"
-args = ["looping from arch again"]
+hosts = [
+  "rogue1",
+  "rogue2",
+  "rogue3",
+  "rogue4",
+  "rogue5",
+  "rogue6",
+  "rogue7",
+  "rogue8",
+  "rogue9",
+  "rogue10",
+  "rogue11",
+  "rogue12",
+  "rogue13",
+  "rogue14",
+  "rogue15",
+  "rogue16",
+  "rogue17",
+  "rogue18",
+  "rogue19",
+  "rogue20",
+]
