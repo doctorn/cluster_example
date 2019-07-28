@@ -1,7 +1,7 @@
 name = "example"
 
-command = "ifconfig"
-args = []
+command = "echo"
+args = ["hello world!"]
 log_dir = "logs/"
 gen_logs = true
 
@@ -26,3 +26,4 @@ rogue17 = {}
 rogue18 = {}
 rogue19 = {}
 rogue20 = {}
+arch = {}
