@@ -1,7 +1,7 @@
 name = "example"
 
 command = "echo"
-args = ["hello world!"]
+args = ["Hello, World!"]
 log_dir = "logs/"
 gen_logs = true
 
