@@ -26,4 +26,4 @@ rogue17 = {}
 rogue18 = {}
 rogue19 = {}
 rogue20 = {}
-arch = {}
+arch = { command = "echo", args = ["Fast forward"] }
